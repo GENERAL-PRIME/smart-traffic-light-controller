@@ -9,6 +9,7 @@ An intelligent traffic monitoring and light control system using **YOLOv8**, **O
 ```
 intelligent_traffic_system/
 ├── main.py
+├── assets/
 ├── modules/
 │   ├── __init__.py
 │   ├── camera_processor.py          # Handles vehicle detection from near/far cameras using YOLOv8
@@ -29,13 +30,6 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
-**`requirements.txt`**
-
-```
-ultralytics>=8.0.0
-opencv-python
-numpy
-```
 
 ---
 
